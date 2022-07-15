@@ -95,7 +95,6 @@
     background-color: rgb(82, 197, 159);
     color: white;
     float: right;
-    /* margin: 1%; */
     padding: 1%;
 }
 #dright{
@@ -105,17 +104,16 @@
     flex-flow: column;
 }
 #dr1{
-    height: 152px;
+    height: 140px;
     width: 92%;
     background-color: whitesmoke;
-    margin: 3%;
-    border: 4%;
+    margin: 2%;
 }
 #dr2{
-    height: 152px;
+    height: 140px;
     width: 92%;
     background-color: whitesmoke;
-    margin: 3%;
+    margin: 2%;
 }
 #scroll{
     height: 240px;
@@ -142,7 +140,6 @@ img{
 #a2{
     height: 30px;
     width: 5%;
-    /* background-color: aqua; */
 }
 #p{
     height: 20px;
@@ -155,15 +152,17 @@ img{
 .c2{
     padding: 5px;
     margin: 4%;
-    height:40px;
+    height: 25px;
     width:80%;
     border: 1px solid rgb(185, 181, 181);
+    display: flex;
+    align-items: center;
+    
 
 }
 .cl{
-    /* margin: 2%; */
-    height: 40px;
-    width: 70%;
+    height: 30px;
+    width: 80%;
     border: none;
     background-color: whitesmoke;
     outline: none;
@@ -172,11 +171,7 @@ img{
 #scroll p{
     display: inline;
 }
-/* @media screen and (min-width: 320px) {
-    body {
-      background-color: none;
-    }
-} */
+
 
 @media screen and (max-width: 468px) {
 #scroll{
@@ -189,11 +184,7 @@ img{
             font-size: 0.51rem;
         }
     }
-/* @media screen and (max-width: 600px){
-    .body{
-        font-size: 0.8rem;
-    }
-} */
+
 .i{
     padding-left: 1%;
 }
